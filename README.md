@@ -1,9 +1,9 @@
 # 🧑‍💼 Job Portal – Semester Project
 
 **Student Name:** Ali Hassan Abbasi
-**Roll Number:** F23BDOCS1M01019  
-**Section:** 1M  
-**Course:** Web Tecnologies  
+**Course:** Web Tecnologies (Semester Project)
+**Roll No.**      F23BDOCS1M01019
+**Section**        1M
 **Project Type:** Frontend with JavaScript + Mock API (JSON Server)
 
 ---
