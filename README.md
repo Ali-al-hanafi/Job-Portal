@@ -113,7 +113,8 @@ Email Format   email must include @,one letter before and after it and . symbol
 Field Validations	No field can be blank or whitespace-only
 Only Employer Can Modify Jobs	No cross-access between employers
 
-These are enforced in validation.js, employer.js, and candidate.js.
+These are enforced in login
+.js, employer.js, and jobs.js.
 
 
 
