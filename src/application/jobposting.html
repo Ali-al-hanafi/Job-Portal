@@ -1,0 +1,93 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a new job</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href = "../assets/css/style.css">
+    <link rel = "icon" href = "../assets/images/Green and White Modern Computer Service Repair Logo.png">
+</head>
+<body id ="form-body">
+    <header class = "head bg-dark text-white">
+        <h1 style="color: rgb(214, 32, 32); font-weight: bold;">SkillSync</h1>
+        <p>Post New Jobs Here</p>
+    </header>
+    <main class="container form-container">
+        <section id = "job-post" class="container">
+            <h2>Post a new Job</h2>
+            <p>Please fill in the details below:</p>
+            <form id = "job-details">
+                    <input spellcheck = "true" class = "form-control" type="text" id="company-name" placeholder="Company Name" name="company-name" required>
+                
+                    <input spellcheck = "true" class = "form-control" type="text" id="job-title" placeholder="Job-Title" name="job-title" required>
+                     <br>
+                      <h5 style="margin-left: 5%;"><strong>Job Type</strong>:</h5>
+                     
+                    <div class = "radiobtn">
+                        <input   type="radio" class="job-type" value="Full-Time" name="job-type" required> Full Time
+                     
+                      <br>
+                     <input  class = "job-type" type="radio"  value="Part-Time" name="job-type" required> Part Time
+                     
+                     <br>
+                     
+                      <input  type="radio" class="job-type" value="Remote" name="job-type" required> Remote
+                      
+                      <br>
+                      
+                       <input  type="radio" class="job-type" value="Internship" name="job-type" required> Internship
+                       
+                      <br>
+                     
+                        <input type="radio" class="job-type" value="Hybrid" name="job-type" required> Hybrid
+                   <br>
+                    </div>
+                       
+                       <br>
+                    <input class = "form-control" type="number" step="1" min="1" id="vacancies" placeholder="Number of Vacancies" name="job-description" required>
+                
+                    <input class = "form-control" type="email" id="email" placeholder="Email" name="email" required>
+                
+                    <input class = "form-control" type="text" id="salary" placeholder="Salary in PKR" name="salary">
+                
+                    <input spellcheck = "true" class = "form-control" type="text" id="location" placeholder="Location" name="location">
+                
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+
+
+         <div class="modal fade " id="customModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div id="modal-header" class="modal-header bg-info text-white">
+        <h5 class="modal-title " id="modalTitle">Title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body text-dark" id="modalBody">
+        Message
+      </div>
+
+      <div class="modal-footer" id="modalFooter">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    </main>
+    <footer class = "bg-dark text-white">
+        <p>&copy; 2025 Job Portal. All rights reserved.</p>
+    </footer>
+
+    <script type="module" src="../script-modules/addjob.js"></script>
+    <script type="module" src="../assets/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

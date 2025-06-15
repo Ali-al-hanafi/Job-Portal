@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | SkillSync</title>
+    <link rel="stylesheet" href="./src/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href = "./src/assets/css/style.css">
+    <link rel = "icon" href = "./src/assets/images/Green and White Modern Computer Service Repair Logo.png">
+</head>
+<body >
+    
+    <nav class="navbar navbar-expand-md fixed-top" style="background-color: #37b9b9 ">
+        <div class="container">
+           <a class="navbar-brand" href="login.html" style="font-weight: 640;">
+      
+        <img src="./src/assets/images/Green and White Modern Computer Service Repair Logo.png" style="height: 50px; width: 40px;"> SkillSync
+      
+    </a>
+            <button style ="background-color: rgb(16, 164, 201);" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto"> 
+                   
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#login-header">Home</a>
+                    </li>
+                     <li  class="nav-item">
+                        <a class="nav-link" href="#login-form">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                     <li class="nav-item">
+                        <a  class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+
+    <header  id = "login-header">
+       <div class="header-content">
+        <h1 >Welcome to SkillSync!</h1>
+        <p >Your gateway to meaningful employment.</p>
+    </header>
+
+<main class="container">
+    <section class = "Login" id = "login-form">
+        <div>
+        <h1 class = "text-content">Login to SkillSync:</h1>
+        
+        <input class="form-control" type="email" placeholder="Email" name="email" id="email"  required>
+    
+        <input class="form-control" type="password" placeholder="Password" name="password" id="password" required>
+    
+        <h3 class = "text-content" >You're a/an:</h3>
+        <label >
+            <input id = "employer" type="radio" name="user_type" value="employer" required> Employer
+        </label>
+        <br>
+        <label >
+            <input id = "jobseeker" type="radio" name="user_type" value="jobseeker" required> Job-Seeker
+        </label>
+        <br>
+        <button id = "loginBtn" class="btn btn-primary" type="submit">Login</button>
+        <br/>
+        <p  class = "text-content">Don't have an account? <a href="./src/application/registration.html" style="color: black;" >Register</a> </p>
+
+       
+        
+    </div>
+    </section>
+
+    <section class="text-content about" id ="about">
+        <h2>About Us</h2>
+        <p>At our core, we believe that meaningful work is one of the greatest sources of dignity and purpose in life. This job portal was founded with the vision of creating not just a platform for employment, but a bridge between talent and opportunity, rooted in trust, integrity, and human connection. Whether you're a recent graduate seeking your first opportunity or a seasoned professional looking to realign your career with your values, our goal is to provide a space where potential is recognized, effort is rewarded, and work is more than just a paycheck—it’s a path to growth. We focus not only on matching candidates with jobs, but on understanding people, aspirations, and industries deeply. Our platform brings together employers who value excellence and applicants who are driven by both skill and sincerity. With carefully designed tools, curated listings, and a commitment to ethical career development, we aim to empower individuals, support businesses, and contribute to a healthier, more just economy. Here, we don’t just fill positions—we build futures.</p>
+        <hr>
+    </section>
+
+    <section class="text-content about" id = "contact">
+       <h2 >Contact Us</h2>
+        <p >If you have any questions or need assistance, feel free to reach out to us:</p>
+        <ul style="list-style: none;">
+            <li >Email: example@gmail.com</li>
+            <li >Phone: +92 300 0000000</li>
+            <li >Address: 123 Job Street, City ABC, Country XYZ</li>
+        </ul>
+    <hr  >
+    </section>
+
+    <div class="modal fade" id="customModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalTitle">Title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body" id="modalBody">
+        Message
+      </div>
+
+      <div class="modal-footer" id="modalFooter">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+      
+   
+</main>
+<footer>
+    <p> &copy; 2025 Job Portal. All rights reserved. Ali Hassan Abbasi</p>
+</footer>
+ 
+    <script type="module" src = "./src/script-modules/login.js"></script>
+    <script type="module" src = "./src/assets/js/bootstrap.bundle.min.js"></script>
+      <script type="module" src = "./src/components/modals.js"></script>
+    
+</body>
+</html>

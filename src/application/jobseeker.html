@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find Jobs | SkillSync</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href = "../assets/css/bootstrap.min.css">
+    <link rel = "icon" href = "../assets/images/Green and White Modern Computer Service Repair Logo.png">
+   
+</head>
+<body>
+   <nav class="navbar navbar-expand-md fixed-top" style="background-color: #37b9b9 ">
+        <div class="container">
+           <a class="navbar-brand" href="login.html" style="font-weight: 640;">
+      <img src="../assets/images/Green and White Modern Computer Service Repair Logo.png" alt="Logo" style="height: 40px; width: 40px;"> SkillSync
+    </a>
+            <button style ="background-color: aliceblue;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto"> 
+                   
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#jobs-header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#search-section">Search</a>
+                    </li>
+                     <li  class="nav-item">
+                        <a class="nav-link" href="../../index.html">Logout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#jobs-list">Jobs</a>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+        </div>
+      </nav>
+
+      <header id = "jobs-header">
+       <h1>Find And Apply For Your Dream Jobs Here!</h1>
+    </header>
+
+  <main class = "container">
+     <section class = "container sect" id = "search-section">
+      <h1>SkillSync</h1>
+     <br>
+    <input type="search" id="search-input" placeholder="Search for jobs by job name or company..." class="form-control" />
+     </section>
+    <section class = "container filter-section" >
+     
+     <ul class = "filters">
+      <li class = "filter-btn active" id = "all-jobs">All</li>
+      <li class = " filter-btn" data-filter = "remote" id = "remote-jobs">Remote</li>
+      <li class = " filter-btn" data-filter = "hybrid" id = "hybrid-jobs">Hybrid</li>
+       <li class = " filter-btn" data-filter = "internship" id = "intern-jobs">Internship</li>
+      <li class = "filter-btn" data-filter = "full-time" id = "full-time-jobs">Full-Time</li>
+      <li class = " filter-btn" data-filter = "part-time" id = "part-time-jobs">Part-Time</li>
+     </ul>
+    </section>
+        
+    <section class = "Jobs" >
+
+      <ul class="job-list" id = "jobs-list">
+      
+      </ul>
+
+       <a id = "btnFloatingAction"  class="fab-btn">
+                 See Applications Status
+          </a>
+
+    </section>
+
+   <section>
+   
+   </section>
+
+
+     <div class="modal fade" id="customModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div id="modal-header"  class="modal-header bg-info text-black">
+        <h5 class="modal-title " id="modalTitle">Applications</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body text-dark" id="modalBody">
+        
+      </div>
+
+      <div class="modal-footer" id="modalFooter">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+      </main>
+    <footer >
+        <p>&copy; 2025 Job Portal. All rights reserved.</p>
+    </footer>
+      <script src="../assets/js/bootstrap.bundle.min.js"></script>
+      <script type="module" src ="../script-modules/jobs.js"></script>
+</body>
+</html>

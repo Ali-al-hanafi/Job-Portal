@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire new talent | SkillSync</title>
+     <link rel="stylesheet" href="../assets/css/style.css">
+      <link rel="stylesheet" href = "../assets/css/bootstrap.min.css">
+    <link rel = "icon" href = "../assets/images/Green and White Modern Computer Service Repair Logo.png">
+</head>
+<body>
+  <nav class="navbar navbar-expand-md fixed-top" style="background-color: #37b9b9 ">
+        <div class="container">
+           <a class="navbar-brand" href="login.html" style="font-weight: 640;">
+                <img src="../assets/images/Green and White Modern Computer Service Repair Logo.png" alt="Logo" style="height: 40px; width: 40px;"> SkillSync
+            </a>
+            <button style ="background-color: aliceblue;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto"> 
+                   
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#emp-header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#search-job">Search</a>
+                    </li>
+                     <li  class="nav-item">
+                        <a class="nav-link" href="../../index.html">Logout</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#jobs-list">Jobs</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+      </nav>
+
+      <header id = "emp-header">
+       <img style="width: 100%; " src="../assets/images/hiring-concept-with-empty-chair.jpg" alt="Header Image" class="logo">
+    </header>
+
+      <main class="container">
+       <section class="text-content filter-section" id = "search-job">
+        
+            <h2 style="color: blue;">See the Jobs Posted by You Here : </h2>
+          
+             
+        <input type="search" id="search-input" placeholder="Search for jobs..." class="form-control" />
+       
+     
+           <a id = "btnFloating"  class="fab-btn">
+                💼 Post a Job
+          </a>
+
+       </section>
+          
+        <section>
+          <div >
+        <ul class="job-list" id = "jobs-list">
+            <h3 class="text-muted">No Jobs Yet!</h3>
+          </ul>
+        </div>
+        </section>
+    </main>
+
+    <!--Modal for Alerts, Confirmations etc-->
+   
+   
+<!-- Edit Job Modal -->
+<div class="modal fade" id="editJobModal" tabindex="-1" >
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header bg-info text-white">
+        <h5 class="modal-title" id="editJobModalLabel">Edit Job</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body" id = "modal-body">
+        <form id="editJobForm">
+          <input type="hidden" id="editJobId">
+
+          <div class="mb-3">
+            <label for="editTitle" class="form-label">Job Title</label>
+            <input type="text" class="form-control" id="editTitle" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="editCompanyName" class="form-label">Company Name</label>
+            <input type="text" class="form-control" id="editCompanyName" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="editSalary" class="form-label">Salary</label>
+            <input type="text" class="form-control" id="editSalary" required>
+          </div>
+
+           <h5 style="margin-left: 5%;"><strong>Job Type</strong>:</h5>
+
+          <div class="mb-3">
+            <label for="editLocation" class="form-label">Location</label>
+            <input type="text" class="form-control" id="editLocation" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="editCompanyEmail" class="form-label">Company Email</label>
+            <input type="email" class="form-control" id="editCompanyEmail" readonly required>
+          </div>
+
+          <div class="mb-3">
+            <label for="editVacancies" class="form-label">Vacancies</label>
+            <input type="number" class="form-control" id="editVacancies" required>
+          </div>
+        </form>
+      </div>
+
+      <div class="modal-footer" id = "modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <button type="button" id="saveEditBtn" class="btn btn-primary">Save Changes</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+        <footer >
+            <p>&copy; 2025 Job Portal. All rights reserved.</p>
+        </footer>
+          <script type="module" src="../assets/js/bootstrap.bundle.min.js"></script>
+          <script type = "module" src="../script-modules/employer.js"></script>
+          <script type="module" src="../components/modals.js"></script>
+</body>
+</html>

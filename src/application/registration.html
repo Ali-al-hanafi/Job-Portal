@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | SkillSync</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+     <link rel = "icon" href = "../assets/images/Green and White Modern Computer Service Repair Logo.png">
+<body>
+   <nav id="navigation-bar" class="navbar navbar-expand-md fixed-top" style="background-color: #37b9b9 ">
+        <div class="container">
+            <a class="navbar-brand" href="login.html" style="font-weight: 640;">
+                
+      <img src="../assets/images/Green and White Modern Computer Service Repair Logo.png" alt="Logo" style="height: 40px; width: 40px;"> SkillSync
+    </a>
+            <button style ="background-color: aliceblue;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto"> 
+                   
+                    <li class="nav-item">
+                        <a style="color: #000000;" class="nav-link active" href="#register-section">Home</a>
+                    </li>
+                     <li  class="nav-item">
+                        <a style="color: #000000;" class="nav-link" href="../../index.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color: #000000;" class="nav-link" href="#about">About Us</a>
+                    </li>
+                     <li class="nav-item">
+                        <a style="color: #000000;" class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+    <header id = "register-header">
+        
+            <h1>Register at SkillSync to get dream jobs or hire new talent!</h1>
+           
+        
+    </header>
+
+<main class="container register">
+    <section class = "text-content Login" id = "register-section">
+        <div>
+        <br>
+        <h1>Please enter the following details:</h1>
+        <form id = "registration-form">
+        <input class="form-control" type="email" placeholder="Email" name="email" id="new-email" required>
+    
+        <input class="form-control" type="password" placeholder="Password" name="password" id="password" required>
+    
+        <input class="form-control" type="password" placeholder="Confirm Password" name="confirm-password" id="confirm-password" required>
+
+        <h3>You're a/an:</h3>
+        <div class = "text-content">
+            <label>
+            <input type="radio" name="user_type" value="employer" required> Employer
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="user_type" value="jobseeker" required> Job-Seeker
+        </label>
+        </div>
+        <br>
+        
+        <button class="btn btn-secondary" type="button"><a href="../../index.html">Back</a></button>
+        <button type="submit" id = "registerBtn" class="btn btn-primary">Register</button>
+        </form>
+    </div>
+    </section>
+
+    <section class="text-content about" id ="about">
+        <h2 >About Us</h2>
+        <p >At our core, we believe that meaningful work is one of the greatest sources of dignity and purpose in life. This job portal was founded with the vision of creating not just a platform for employment, but a bridge between talent and opportunity, rooted in trust, integrity, and human connection. Whether you're a recent graduate seeking your first opportunity or a seasoned professional looking to realign your career with your values, our goal is to provide a space where potential is recognized, effort is rewarded, and work is more than just a paycheck—it’s a path to growth. We focus not only on matching candidates with jobs, but on understanding people, aspirations, and industries deeply. Our platform brings together employers who value excellence and applicants who are driven by both skill and sincerity. With carefully designed tools, curated listings, and a commitment to ethical career development, we aim to empower individuals, support businesses, and contribute to a healthier, more just economy. Here, we don’t just fill positions—we build futures.</p>
+        <hr>
+    </section>
+
+    <section class="text-content about" id = "contact">
+       <h2 >Contact Us</h2>
+        <p >If you have any questions or need assistance, feel free to reach out to us:</p>
+        <ul style="list-style: none;">
+            <li>Email: example@gmail.com</li>
+            <li>Phone: +92 300 0000000</li>
+        </ul>
+        <hr>
+    </section>
+
+    <div class="modal fade" id="customModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div id="modal-header" class="modal-header bg-primary text-white">
+        <h5 class="modal-title " id="modalTitle">Title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body text-dark" id="modalBody">
+        Message
+      </div>
+
+      <div class="modal-footer" id="modalFooter">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+    
+</main>
+<footer>
+    <p> &copy; 2025 Job Portal. All rights reserved.</p>
+</footer>
+<script src="../assets/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="../script-modules/register.js"></script>
+<script type="module" src ="../components/modals.js"></script>
+</body>
+</html>
