@@ -129,7 +129,7 @@ export const isNewApplication = async (jobId, cnic) => {
     if (!response.ok) throw new Error("Failed to fetch applications.");
     const applications = await response.json();
 
-    return !applications.some(app => app.jobId === jobId && app.cnic === cnic);
+    return !applications.some(app => app.jobId == jobId && app.cnic == cnic);
   } catch (error) {
     console.error("Error checking for existing application:", error);
     return true; 

@@ -24,7 +24,7 @@ addJobForm.addEventListener('submit', async (event) => {
   const location = document.getElementById('location').value;
   const vacancies = document.getElementById('vacancies').value;
   
-  if (!title.trim() || !companyName.trim() || !salary.trim() || !jobType.trim() || !location.trim() || !vacancies.trim()) {
+  if (!title.trim() || !companyName.trim() || !salary.trim() || !location.trim() || !vacancies) {
     showAlert("Alert!","Please fill in all fields.");
     return;
   }
@@ -56,7 +56,7 @@ addJobForm.addEventListener('submit', async (event) => {
          showError("Error","Submission failed!");
         console.log("Form Submission Caught");
        } else {
-         setTimeout(()=> history.back(),2000);
+         setTimeout(()=> history.back(),1500);
         showSuccess("Success","Job added successfully!");
        }
        console.log("Form Submission Caught");

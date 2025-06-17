@@ -5,6 +5,7 @@ const params = new URLSearchParams(window.location.search);
 
 document.body.insertAdjacentHTML("beforeend",injectModal());
 document.body.insertAdjacentHTML("beforeend",injectToast());
+
 const newJobId = params.get("jobId");
 const form = document.getElementById('applicat-form');
 
@@ -17,6 +18,7 @@ form.addEventListener("submit", async (event) => {
        showError("Error","No Job Selected For Application");
        return;
     }
+
     const jobId = newJobId;
     const fullName = document.getElementById('fullname').value;
     const fatherName = document.getElementById('fname').value;
@@ -28,11 +30,11 @@ form.addEventListener("submit", async (event) => {
     const phone = document.getElementById('phonenumber').value;
     const status = "pending";
 
-    // Validate form fields
     if (!fullName.trim() || !email.trim() || !cnic.trim() || !fatherName.trim() || !address.trim() || !education.trim() || !experience || !phone.trim()) {
       showAlert("Alert", "Please fill in all fields.");
       return;
     }
+
 
     if (!(await isNewApplication(newJobId, cnic))) {
       showAlert("Already Applied", "You have already applied for this job.");
@@ -56,7 +58,7 @@ form.addEventListener("submit", async (event) => {
     if (!response) {
       showError("Connection Error", "Could not submit application!");
     } else {
-      setTimeout(()=> history.back(),1500);
+      setTimeout(()=> history.back(),2000);
       showSuccess("Success!", "Application Submitted Successfully...");
       console.log("Form submit caught");
     }

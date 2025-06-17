@@ -1,6 +1,8 @@
  
- import {showAlert, showError, showSuccess} from "../components/modals.js";
+ import {showAlert, showError, showSuccess,injectModal} from "../components/modals.js";
  import { validateCredentials } from "../services/databasemanagement.js";
+
+ document.body.insertAdjacentHTML("beforeend",injectModal());
 
 let btnLogin = document.getElementById("loginBtn");
 let emailInput = document.getElementById("email");

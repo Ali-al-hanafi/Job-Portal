@@ -61,6 +61,42 @@
       "role": "jobseeker"
     },
     {
+      "id": "1eac",
+      "email": "ali@gmail.com",
+      "password": "ali1234",
+      "role": "jobseeker"
+    },
+    {
+      "id": "2cb3",
+      "email": "alia@gmail.com",
+      "password": "1234567",
+      "role": "jobseeker"
+    },
+    {
+      "id": "892a",
+      "email": "ali@example.com",
+      "password": "example123",
+      "role": "jobseeker"
+    },
+    {
+      "id": "baa9",
+      "email": "example@gmail.com",
+      "password": "12345678",
+      "role": "jobseeker"
+    },
+    {
+      "id": "198f",
+      "email": "examples@gmail.com",
+      "password": "1234567890",
+      "role": "jobseeker"
+    },
+    {
+      "id": "c9c6",
+      "email": "example3@gmail.com",
+      "password": "12345678",
+      "role": "jobseeker"
+    },
+    {
       "id": "11",
       "email": "hr@techcorp.com",
       "password": "hr123",
@@ -123,26 +159,8 @@
     {
       "id": "7310",
       "email": "ali@gmail.com",
-      "password": "ali123",
+      "password": "ali1234",
       "role": "employer"
-    },
-    {
-      "id": "1eac",
-      "email": "ali@gmail.com",
-      "password": "alllllllllll",
-      "role": "jobseeker"
-    },
-    {
-      "id": "2cb3",
-      "email": "alia@gmail.com",
-      "password": "1234567",
-      "role": "jobseeker"
-    },
-    {
-      "id": "892a",
-      "email": "ali@example.com",
-      "password": "example123",
-      "role": "jobseeker"
     },
     {
       "id": "be8b",
@@ -151,16 +169,16 @@
       "role": "employer"
     },
     {
-      "id": "baa9",
-      "email": "example@gmail.com",
-      "password": "12345678",
-      "role": "jobseeker"
+      "id": "115c",
+      "email": "ali@example.com",
+      "password": "password123",
+      "role": "employer"
     },
     {
-      "id": "198f",
-      "email": "examples@gmail.com",
-      "password": "1234567890",
-      "role": "jobseeker"
+      "id": "f08b",
+      "email": "example@gmail.com",
+      "password": "pass123",
+      "role": "employer"
     }
   ],
   "jobs": [
@@ -365,14 +383,14 @@
       "vacancies": 3
     },
     {
+      "id": "bb2e57",
       "title": "Junior Developer",
       "companyName": "AliTech Solutions",
       "salary": "PKR 90,000",
       "jobType": "Full-Time",
-      "location": "Lahore",
+      "location": "Gujranwala",
       "companyEmail": "ali@gmail.com",
-      "vacancies": 8,
-      "id": "bb2e57"
+      "vacancies": 8
     },
     {
       "id": "6d2c47",
@@ -388,41 +406,51 @@
       "id": "3480",
       "title": "Software Engineer",
       "companyName": "AliTech Solutions",
-      "salary": "88675",
+      "salary": "PKR 88,675",
       "jobType": "Full-Time",
       "location": "Multan",
       "companyEmail": "ali@gmail.com",
-      "vacancies": "2"
+      "vacancies": 2
     },
     {
       "id": "626a",
       "title": "Data Scientist",
       "companyName": "AliTech Solutions",
-      "salary": "20000",
+      "salary": "PKR 20,000",
       "jobType": "Part-Time",
       "location": "Bahawalpur",
       "companyEmail": "ali@gmail.com",
       "vacancies": 11
     },
     {
-      "id": "716b",
-      "title": "ML Engineer",
+      "id": "971f",
+      "title": "Software Engineer",
       "companyName": "AliTech Solutions",
-      "salary": "750000",
+      "salary": "88675",
       "jobType": "Full-Time",
-      "location": "Lahore",
+      "location": "Bahawalpur",
+      "companyEmail": "ali@gmail.com",
+      "vacancies": "3"
+    },
+    {
+      "id": "b384",
+      "title": "Data Scientist",
+      "companyName": "AliTech Solutions",
+      "salary": "10000",
+      "jobType": "Full-Time",
+      "location": "Bahawalpur",
       "companyEmail": "ali@gmail.com",
       "vacancies": "4"
     },
     {
-      "id": "ffbd",
-      "title": "Software Engineer",
-      "companyName": "AI Engineer",
+      "id": "7f49",
+      "title": "Data Scientist",
+      "companyName": "AliTech Solutions",
       "salary": "15000",
       "jobType": "Internship",
       "location": "Bahawalpur",
       "companyEmail": "ali@gmail.com",
-      "vacancies": "1"
+      "vacancies": "8"
     }
   ],
   "applications": [
@@ -436,7 +464,7 @@
       "address": "Lahore, Punjab",
       "education": "BS Computer Science",
       "experience": 1.5,
-      "jobId": 1,
+      "jobId": "1",
       "status": "pending"
     },
     {
@@ -449,7 +477,7 @@
       "address": "Karachi, Sindh",
       "education": "BBA",
       "experience": 2,
-      "jobId": 2,
+      "jobId": "2",
       "status": "approved"
     },
     {
@@ -462,7 +490,7 @@
       "address": "Faisalabad, Punjab",
       "education": "MBA",
       "experience": 3.5,
-      "jobId": 3,
+      "jobId": "3",
       "status": "rejected"
     },
     {
@@ -475,7 +503,7 @@
       "address": "Islamabad",
       "education": "BS Software Engineering",
       "experience": 0.5,
-      "jobId": 1,
+      "jobId": "1",
       "status": "pending"
     },
     {
@@ -488,7 +516,7 @@
       "address": "Peshawar, KPK",
       "education": "DAE Civil",
       "experience": 4,
-      "jobId": 2,
+      "jobId": "2",
       "status": "approved"
     },
     {
@@ -501,7 +529,7 @@
       "address": "Hyderabad, Sindh",
       "education": "BS Accounting",
       "experience": 2.5,
-      "jobId": 3,
+      "jobId": "3",
       "status": "rejected"
     },
     {
@@ -514,7 +542,7 @@
       "address": "Rawalpindi, Punjab",
       "education": "MS Data Science",
       "experience": 1,
-      "jobId": 4,
+      "jobId": "4",
       "status": "pending"
     },
     {
@@ -527,7 +555,7 @@
       "address": "Multan, Punjab",
       "education": "BS Chemistry",
       "experience": 0,
-      "jobId": 5,
+      "jobId": "5",
       "status": "approved"
     },
     {
@@ -540,7 +568,7 @@
       "address": "Quetta, Balochistan",
       "education": "B.Com",
       "experience": 5,
-      "jobId": 6,
+      "jobId": "6",
       "status": "rejected"
     },
     {
@@ -553,7 +581,7 @@
       "address": "Gujranwala, Punjab",
       "education": "BS Statistics",
       "experience": 1.5,
-      "jobId": 4,
+      "jobId": "4",
       "status": "pending"
     },
     {
@@ -566,7 +594,7 @@
       "address": "Bahawalpur",
       "education": "BS Physics",
       "experience": 2,
-      "jobId": 6,
+      "jobId": "6",
       "status": "approved"
     },
     {
@@ -579,7 +607,7 @@
       "address": "Abbottabad, KPK",
       "education": "BS Psychology",
       "experience": 3,
-      "jobId": 5,
+      "jobId": "5",
       "status": "rejected"
     },
     {
@@ -592,7 +620,7 @@
       "address": "Sialkot",
       "education": "MCS",
       "experience": 1,
-      "jobId": 1,
+      "jobId": "1",
       "status": "pending"
     },
     {
@@ -605,7 +633,7 @@
       "address": "Okara, Punjab",
       "education": "BS Sociology",
       "experience": 0.5,
-      "jobId": 2,
+      "jobId": "2",
       "status": "approved"
     },
     {
@@ -618,7 +646,7 @@
       "address": "Sargodha",
       "education": "BS Mechanical Engineering",
       "experience": 2.5,
-      "jobId": 3,
+      "jobId": "3",
       "status": "rejected"
     },
     {
@@ -631,7 +659,7 @@
       "address": "Sukkur, Sindh",
       "education": "M.Ed",
       "experience": 1.5,
-      "jobId": 4,
+      "jobId": "4",
       "status": "pending"
     },
     {
@@ -644,7 +672,7 @@
       "address": "Dera Ismail Khan",
       "education": "BS IT",
       "experience": 4.5,
-      "jobId": 5,
+      "jobId": "5",
       "status": "approved"
     },
     {
@@ -657,7 +685,7 @@
       "address": "Mardan, KPK",
       "education": "B.Ed",
       "experience": 2,
-      "jobId": 6,
+      "jobId": "6",
       "status": "rejected"
     },
     {
@@ -670,7 +698,7 @@
       "address": "Khairpur",
       "education": "M.Com",
       "experience": 3.5,
-      "jobId": 3,
+      "jobId": "3",
       "status": "pending"
     },
     {
@@ -683,7 +711,7 @@
       "address": "Rahim Yar Khan",
       "education": "BS English",
       "experience": 1,
-      "jobId": 4,
+      "jobId": "4",
       "status": "approved"
     },
     {
@@ -695,7 +723,7 @@
       "cnic": "31302-6655761-8",
       "address": "Islamic City Feroza, Rahim Yar Khan, Punjab",
       "education": "BS Computer Science",
-      "experience": "5",
+      "experience": 5,
       "phone": "03130065959",
       "status": "pending"
     },
@@ -708,7 +736,7 @@
       "cnic": "31302-6655761-8",
       "address": "Islamic City Feroza, Rahim Yar Khan, Punjab",
       "education": "BS Computer Science",
-      "experience": "4",
+      "experience": 4,
       "phone": "03130065959",
       "status": "approved"
     },
@@ -721,9 +749,9 @@
       "cnic": "32450-5566789-0",
       "address": "Liaquatpur",
       "education": "MS Artificial Intelligence",
-      "experience": "3",
+      "experience": 3,
       "phone": "03476655432",
-      "status": "approved"
+      "status": "pending"
     },
     {
       "id": "f0d7",
@@ -734,9 +762,9 @@
       "cnic": "31302-6695761-1",
       "address": "Rahim Yar Khan, Punjab",
       "education": "MS Artificial Intelligence",
-      "experience": "8",
+      "experience": 8,
       "phone": "03168065959",
-      "status": "approved"
+      "status": "pending"
     },
     {
       "id": "b2bf",
@@ -747,59 +775,46 @@
       "cnic": "31302-9655771-1",
       "address": "Layyah",
       "education": "BSCS",
-      "experience": "8",
+      "experience": 8,
       "phone": "03432212345",
-      "status": "rejected"
+      "status": "pending"
     },
     {
-      "id": "b2f0",
+      "id": "f63c",
+      "jobId": "2",
+      "fullName": "Ali Hassan Abbasi",
+      "fatherName": "Khursheed Ahmad",
+      "email": "a.h.abbasi0313@gmail.com",
+      "cnic": "31302-6655761-3",
+      "address": "Islamic City Feroza, Rahim Yar Khan, Punjab",
+      "education": "MS CS",
+      "experience": 8,
+      "phone": "03130065959",
+      "status": "pending"
+    },
+    {
+      "id": "a799",
       "jobId": "3480",
       "fullName": "Ali Hassan Abbasi",
       "fatherName": "Khursheed Ahmad",
       "email": "a.h.abbasi0313@gmail.com",
       "cnic": "31302-6655761-8",
       "address": "Islamic City Feroza, Rahim Yar Khan, Punjab",
-      "education": "MS Artificial Intelligence",
-      "experience": "5",
+      "education": "BS Computer Science",
+      "experience": 6,
       "phone": "03130065959",
       "status": "pending"
     },
     {
-      "id": "81c1",
-      "jobId": "626a",
+      "id": "2d5a",
+      "jobId": "6",
       "fullName": "Ali Hassan Abbasi",
       "fatherName": "Khursheed Ahmad",
       "email": "a.h.abbasi0313@gmail.com",
       "cnic": "31302-6655761-8",
       "address": "Islamic City Feroza, Rahim Yar Khan, Punjab",
-      "education": "MS Artificial Intelligence",
-      "experience": "4",
-      "phone": "03130065959",
-      "status": "pending"
-    },
-    {
-      "id": "b1b7",
-      "jobId": "626a",
-      "fullName": "Ali Hassan Abbasi",
-      "fatherName": "Khursheed Ahmad",
-      "email": "a.h.abbasi0313@gmail.com",
-      "cnic": "31302-6654761-8",
-      "address": "Islamic City Feroza, Rahim Yar Khan, Punjab",
-      "education": "MS Artificial Intelligence",
-      "experience": "4",
-      "phone": "03130065959",
-      "status": "pending"
-    },
-    {
-      "id": "af67",
-      "jobId": "716b",
-      "fullName": "Ali Hassan Abbasi",
-      "fatherName": "Khursheed Ahmad",
-      "email": "a.h.abbasi0313@gmail.com",
-      "cnic": "31302-6655761-8",
-      "address": "Islamic City Feroza, Rahim Yar Khan, Punjab",
-      "education": "MS Artificial Intelligence",
-      "experience": "8",
+      "education": "BS Computer Science",
+      "experience": 8,
       "phone": "03130065959",
       "status": "pending"
     }

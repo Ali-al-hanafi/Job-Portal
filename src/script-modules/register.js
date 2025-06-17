@@ -1,5 +1,8 @@
-import { showSuccess,showAlert,showError } from "./components/modals.js";
-import {registerUser, fetchAllData} from "./components/databasemanagement.js";
+import { showSuccess,showAlert,showError,injectModal } from "../components/modals.js";
+import {registerUser, fetchAllData} from "../services/databasemanagement.js";
+
+document.body.insertAdjacentHTML("beforeend",injectModal());
+
 const email = document.getElementById("new-email");
 const password = document.getElementById("password");
 const confirmPassword = document.getElementById("confirm-password");
@@ -45,7 +48,8 @@ registerForm.addEventListener("submit", async function (event) {
 
     const result = await registerUser(emailVal, passwordVal, userType.value);
     if (result) {
-      showSuccess("Success!", "Registration successful!");
+      
+      showSuccess("Success!", "Registration successful!\nNow You can login");
 
     } else {
       showError("Error", "Registration failed. Please try again.");

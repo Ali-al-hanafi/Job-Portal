@@ -21,6 +21,25 @@ header {
   overflow: hidden;
 }
 
+#emp-header{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  color: #000000;
+  background-image: url('../images/we-are-hiring-digital-collage.jpg');
+  background-size: cover;
+  text-shadow: #000000 1px 0px 3px;
+  padding: 10px;
+  margin: 0;
+  margin-top: 50px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
 .header-content h1 {
   font-size: 3rem;
   position: relative;
@@ -37,7 +56,6 @@ header {
   margin: 10px 0;
   font-weight: 500;
   animation: slider 2s  ease-in-out;
-  
 }
 @keyframes slider {
   0% {
@@ -105,7 +123,7 @@ header {
   text-shadow: #778c8d 5px 3px 3px;
   padding: 20px;
   text-align: center;
-  perspective: 700px;
+  perspective: 500px;
 }
 #jobs-header h1 {
   font-size: 3rem;
@@ -113,14 +131,14 @@ header {
   margin-bottom: 20px;
   color: #000000;
   font-weight: bold;
-  animation: zoomIn 2s ease-in-out ;
+  animation: zoomIn 2s ease-in-out;
 }
 
 footer {
  background-color: #198492; 
   text-align: center;
   color:#000000;
-  padding-top: 18px!important;
+  padding-top: 20px!important;
   margin: 0;
   padding: 10px;
   
@@ -138,6 +156,7 @@ footer {
   margin: 0;
   text-align: center;
   font-weight: bold;
+  border-radius: 10px;
 }
 main{
   margin: 0;
@@ -204,7 +223,7 @@ button{
 }
 
 button:hover{
-    background-color: #0a032e; 
+    background-color: #0e053a; 
 }
  
 
@@ -226,20 +245,20 @@ button:hover{
     border: 1px solid #001535;      
     padding: 20px;
     margin-bottom: 10px;
-    width: 400px; /* Fixed width for job items */
+    width: 400px; 
     margin-top: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1); /* Subtle shadow */
-    color: #1f2937;                  /* Neutral dark text */
+    box-shadow: 2px 2px 6px 6px rgba(0,0,0,1.0); 
+    color: #1f2937;                  
   }
   
   .job-item h2 {
-    color: #000000; /* Bootstrap primary blue */
-    font-weight: bolder;
+    color: #000000; 
+    font-weight: bold;
   }
   
   .job-item p {
-    color: #0e6d92; /* Cool dark gray for body text */
+    color: #0e6d92; 
     font-weight: 700;
   }
   .location {
@@ -296,16 +315,17 @@ a {
   padding: 0;
   margin: 0;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   margin: 0;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none;  /* IE 10+ */
-   overflow: scroll;
   background-color: #dee2e6;
   padding: 5px;
   border-radius: 20px;
+  overflow: auto;            
+  scrollbar-width: none;   
+  -ms-overflow-style: none; 
   
 }
 .filter-section h1{
@@ -332,7 +352,7 @@ a {
   border: 1px solid #000000;
   color: rgb(0, 0, 0);
   padding: 10px 20px;
-  border-radius: 20px;
+  border-radius: 100px;
   cursor: pointer;
   font-size: 16px;
   margin-right: 10px;
@@ -348,9 +368,6 @@ a {
   color: #ffffff;
 }
 
-.filters::-webkit-scrollbar {
-  display: none; /* Chrome, Safari, and Opera */
-}
 .filter-section{
   display: flex;
   flex-direction: column;
@@ -380,7 +397,7 @@ a {
   position: fixed;
   bottom: 30px;
   right: 30px;
-  background-color: #007bff;
+  background-color: #2065af;
   color: white;
   padding: 14px 24px;
   border-radius: 50px;
@@ -391,9 +408,9 @@ a {
 }
 
 .fab-btn:hover {
-  background-color: #000000;
+  background-color: #120b75;
   cursor: pointer;
-  transform: scale(1.05);
+  transform: scale(1.02);
   text-decoration: none;
 }
 

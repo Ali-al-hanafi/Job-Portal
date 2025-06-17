@@ -47,10 +47,8 @@ const renderJobs = (jobsArray) => {
         for (const app of applications) {
           await deleteData("applications", app.id);
         }
-
         showSuccess("Deleted", "Item deleted successfully!");
-        setTimeout(() => location.reload(), 2000);
-
+        loadJobs();
       } catch (err) {
         console.error("Deletion failed:", err);
         showError("Error", "Unexpected error occurred.");

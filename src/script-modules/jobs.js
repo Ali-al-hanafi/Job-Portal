@@ -1,9 +1,11 @@
+import { injectModal } from "../components/modals.js";
 import { fetchAllData } from "../services/databasemanagement.js";
 const jobsList = document.getElementById("jobs-list");
 const searchInput = document.getElementById("search-input");
 const filters = document.querySelectorAll(".filter-btn");
 const btnShowStatus= document.getElementById("btnFloatingAction");
 
+document.body.insertAdjacentHTML("beforeend",injectModal());
 
 let jobs = [];
 
