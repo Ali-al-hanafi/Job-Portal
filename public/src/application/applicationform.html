@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href = "../assets/css/bootstrap.min.css">
+    <link rel = "icon" href = "../assets/images/Green and White Modern Computer Service Repair Logo.png">
+</head>
+<body id ="form-body">
+    <header class = "head bg-dark text-white">
+        <h1 style="color: rgb(212, 35, 35); font-weight: bold;" >SkillSync</h1>
+        <p>Apply For Jobs Here</p>
+    </header>
+    <main class="container form-container">
+        <section class="container" id = "application-form" >
+            <div>
+            <h2 style="font-weight: 600; color: #181aa1;">Job Application</h2>
+            <p>Please fill in the details below:</p>
+            <p><strong>Note</strong>: You cannot edit or view your application again, so enter the details carefully. In case of any emergency, contact us at <strong>skillsync@example.com</strong> </p>
+            <form id = "applicat-form" method="POST">
+                
+                    <input pattern="[0-9]{5}-[0-9]{7}-[0-9]" class = "form-control" type="text" id="cnic" placeholder="CNIC ( with dashes e.g 12345-6789001-2 )" name="cnic" required>
+               
+                    <input spellcheck = "true" class = "form-control" type="text" id="fullname" placeholder="Full-Name" name="name" required>
+                
+                    <input spellcheck = "true" class = "form-control" type="text" id="fname" placeholder="Father Name" name="fathername" required>
+                
+                    <input class = "form-control" type="tel" id="phonenumber" placeholder="Phone Number" name="phone" required>
+                
+                    <input class = "form-control" type="email" id="email" placeholder="Email" name="email" required>
+                
+                    <input spellcheck = "true" class = "form-control" type="text" id="address" placeholder="Address" name="address">
+                    
+                    <input spellcheck = "true" class = "form-control" type="text" id="education" placeholder="Education" name="education">
+
+                    
+                    <input class = "form-control" type="number" min = "0" max = "30" step="0.5" id="experience" placeholder="Experience (in years)" name="experience">
+                
+                    
+                <button type="submit" class="btn btn-primary">Submit Application</button>
+            </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class = "bg-dark text-white">
+        <p>&copy; 2025 Job SkillSync. All rights reserved.</p>
+    </footer>
+    <script type="module" src="../script-modules/applications.js"></script>
+    <script type="module" src = "../assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

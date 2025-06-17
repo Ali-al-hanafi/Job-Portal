@@ -1,0 +1,822 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "ali.khan@example.com",
+      "password": "pass123",
+      "role": "jobseeker"
+    },
+    {
+      "id": "2",
+      "email": "sara.ahmed@example.com",
+      "password": "pass456",
+      "role": "jobseeker"
+    },
+    {
+      "id": "3",
+      "email": "hamza.raza@example.com",
+      "password": "hamza321",
+      "role": "jobseeker"
+    },
+    {
+      "id": "4",
+      "email": "aisha.fatima@example.com",
+      "password": "aisha456",
+      "role": "jobseeker"
+    },
+    {
+      "id": "5",
+      "email": "usman.bashir@example.com",
+      "password": "usman789",
+      "role": "jobseeker"
+    },
+    {
+      "id": "6",
+      "email": "zainab.yasir@example.com",
+      "password": "zainab987",
+      "role": "jobseeker"
+    },
+    {
+      "id": "7",
+      "email": "hassan.ali@example.com",
+      "password": "hassan147",
+      "role": "jobseeker"
+    },
+    {
+      "id": "8",
+      "email": "komal.iftikhar@example.com",
+      "password": "komal258",
+      "role": "jobseeker"
+    },
+    {
+      "id": "9",
+      "email": "bilal.maqsood@example.com",
+      "password": "bilal369",
+      "role": "jobseeker"
+    },
+    {
+      "id": "10",
+      "email": "noor.javed@example.com",
+      "password": "noor159",
+      "role": "jobseeker"
+    },
+    {
+      "id": "1eac",
+      "email": "ali@gmail.com",
+      "password": "ali1234",
+      "role": "jobseeker"
+    },
+    {
+      "id": "2cb3",
+      "email": "alia@gmail.com",
+      "password": "1234567",
+      "role": "jobseeker"
+    },
+    {
+      "id": "892a",
+      "email": "ali@example.com",
+      "password": "example123",
+      "role": "jobseeker"
+    },
+    {
+      "id": "baa9",
+      "email": "example@gmail.com",
+      "password": "12345678",
+      "role": "jobseeker"
+    },
+    {
+      "id": "198f",
+      "email": "examples@gmail.com",
+      "password": "1234567890",
+      "role": "jobseeker"
+    },
+    {
+      "id": "c9c6",
+      "email": "example3@gmail.com",
+      "password": "12345678",
+      "role": "jobseeker"
+    },
+    {
+      "id": "11",
+      "email": "hr@techcorp.com",
+      "password": "hr123",
+      "role": "employer"
+    },
+    {
+      "id": "12",
+      "email": "recruit@innovatex.io",
+      "password": "innovateX",
+      "role": "employer"
+    },
+    {
+      "id": "13",
+      "email": "jobs@softdevs.com",
+      "password": "soft456",
+      "role": "employer"
+    },
+    {
+      "id": "14",
+      "email": "talent@digitalsquare.com",
+      "password": "digital789",
+      "role": "employer"
+    },
+    {
+      "id": "15",
+      "email": "hiring@aiworld.net",
+      "password": "aiworld",
+      "role": "employer"
+    },
+    {
+      "id": "16",
+      "email": "careers@webfinity.org",
+      "password": "webfinity",
+      "role": "employer"
+    },
+    {
+      "id": "17",
+      "email": "team@nextgenlabs.io",
+      "password": "nextgen",
+      "role": "employer"
+    },
+    {
+      "id": "18",
+      "email": "contact@cybertech.pk",
+      "password": "cyber123",
+      "role": "employer"
+    },
+    {
+      "id": "19",
+      "email": "admin@logichouse.org",
+      "password": "logic456",
+      "role": "employer"
+    },
+    {
+      "id": "20",
+      "email": "manager@visionaryhub.net",
+      "password": "vision321",
+      "role": "employer"
+    },
+    {
+      "id": "7310",
+      "email": "ali@gmail.com",
+      "password": "ali1234",
+      "role": "employer"
+    },
+    {
+      "id": "be8b",
+      "email": "a.h.abbasi@gmail.com",
+      "password": "123456",
+      "role": "employer"
+    },
+    {
+      "id": "115c",
+      "email": "ali@example.com",
+      "password": "password123",
+      "role": "employer"
+    },
+    {
+      "id": "f08b",
+      "email": "example@gmail.com",
+      "password": "pass123",
+      "role": "employer"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Frontend Developer",
+      "companyName": "TechNova Solutions",
+      "salary": "PKR 120,000",
+      "location": "Lahore",
+      "jobType": "Full-Time",
+      "companyEmail": "hr@technova.com",
+      "vacancies": 3
+    },
+    {
+      "id": "2",
+      "title": "Backend Developer",
+      "companyName": "CodeCrafters Inc.",
+      "salary": "PKR 150,000",
+      "location": "Karachi",
+      "jobType": "Internship",
+      "companyEmail": "jobs@codecrafters.com",
+      "vacancies": 2
+    },
+    {
+      "id": "3",
+      "title": "UI/UX Designer",
+      "companyName": "PixelPerfect Studio",
+      "salary": "PKR 100,000",
+      "location": "Islamabad",
+      "jobType": "Part-Time",
+      "companyEmail": "careers@pixelperfect.pk",
+      "vacancies": 1
+    },
+    {
+      "id": "4",
+      "title": "Data Analyst",
+      "companyName": "Insight Metrics",
+      "salary": "PKR 140,000",
+      "location": "Lahore",
+      "jobType": "Full-Time",
+      "companyEmail": "recruitment@insightmetrics.pk",
+      "vacancies": 2
+    },
+    {
+      "id": "5",
+      "title": "Mobile App Developer",
+      "companyName": "AppNest",
+      "salary": "PKR 130,000",
+      "location": "Karachi",
+      "jobType": "Contract",
+      "companyEmail": "jobs@appnest.io",
+      "vacancies": 1
+    },
+    {
+      "id": "6",
+      "title": "Software Engineer",
+      "companyName": "DevSphere",
+      "salary": "PKR 160,000",
+      "location": "Peshawar",
+      "jobType": "Full-Time",
+      "companyEmail": "hr@devsphere.com",
+      "vacancies": 4
+    },
+    {
+      "id": "7",
+      "title": "Marketing Manager",
+      "companyName": "MarketGenius",
+      "salary": "PKR 110,000",
+      "location": "Rawalpindi",
+      "jobType": "Full-Time",
+      "companyEmail": "jobs@marketgenius.org",
+      "vacancies": 1
+    },
+    {
+      "id": "8",
+      "title": "Customer Support Executive",
+      "companyName": "Supportly",
+      "salary": "PKR 80,000",
+      "location": "Lahore",
+      "jobType": "Remote",
+      "companyEmail": "support@supportly.pk",
+      "vacancies": 5
+    },
+    {
+      "id": "9",
+      "title": "Network Engineer",
+      "companyName": "NetSolutions",
+      "salary": "PKR 140,000",
+      "location": "Faisalabad",
+      "jobType": "Full-Time",
+      "companyEmail": "careers@netsolutions.com",
+      "vacancies": 2
+    },
+    {
+      "id": "10",
+      "title": "Cloud Architect",
+      "companyName": "SkyTech",
+      "salary": "PKR 200,000",
+      "location": "Islamabad",
+      "jobType": "Remote",
+      "companyEmail": "hr@skytech.cloud",
+      "vacancies": 1
+    },
+    {
+      "id": "11",
+      "title": "QA Engineer",
+      "companyName": "Testify",
+      "salary": "PKR 120,000",
+      "location": "Karachi",
+      "jobType": "Full-Time",
+      "companyEmail": "recruitment@testify.pk",
+      "vacancies": 3
+    },
+    {
+      "id": "12",
+      "title": "Product Manager",
+      "companyName": "InnovateX",
+      "salary": "PKR 180,000",
+      "location": "Lahore",
+      "jobType": "Full-Time",
+      "companyEmail": "jobs@innovatex.com",
+      "vacancies": 2
+    },
+    {
+      "id": "13",
+      "title": "Content Writer",
+      "companyName": "WriteSphere",
+      "salary": "PKR 75,000",
+      "location": "Multan",
+      "jobType": "Part-Time",
+      "companyEmail": "content@writesphere.pk",
+      "vacancies": 1
+    },
+    {
+      "id": "14",
+      "title": "DevOps Engineer",
+      "companyName": "CloudSprint",
+      "salary": "PKR 170,000",
+      "location": "Islamabad",
+      "jobType": "Full-Time",
+      "companyEmail": "devops@cloudsprint.io",
+      "vacancies": 2
+    },
+    {
+      "id": "15",
+      "title": "Graphic Designer",
+      "companyName": "DesignHive",
+      "salary": "PKR 90,000",
+      "location": "Quetta",
+      "jobType": "Contract",
+      "companyEmail": "careers@designhive.com",
+      "vacancies": 1
+    },
+    {
+      "id": "16",
+      "title": "HR Officer",
+      "companyName": "PeopleFirst",
+      "salary": "PKR 85,000",
+      "location": "Lahore",
+      "jobType": "Full-Time",
+      "companyEmail": "hr@peoplefirst.pk",
+      "vacancies": 1
+    },
+    {
+      "id": "17",
+      "title": "AI Researcher",
+      "companyName": "NeuroLab",
+      "salary": "PKR 220,000",
+      "location": "Islamabad",
+      "jobType": "Remote",
+      "companyEmail": "ai@neurolab.org",
+      "vacancies": 2
+    },
+    {
+      "id": "18",
+      "title": "Project Coordinator",
+      "companyName": "PlanRight",
+      "salary": "PKR 105,000",
+      "location": "Karachi",
+      "jobType": "Full-Time",
+      "companyEmail": "projects@planright.com",
+      "vacancies": 1
+    },
+    {
+      "id": "19",
+      "title": "Cybersecurity Analyst",
+      "companyName": "SecureZone",
+      "salary": "PKR 190,000",
+      "location": "Lahore",
+      "jobType": "Remote",
+      "companyEmail": "security@securezone.pk",
+      "vacancies": 2
+    },
+    {
+      "id": "20",
+      "title": "Sales Executive",
+      "companyName": "BizConnect",
+      "salary": "PKR 95,000",
+      "location": "Gujranwala",
+      "jobType": "Hybrid",
+      "companyEmail": "sales@bizconnect.pk",
+      "vacancies": 3
+    },
+    {
+      "id": "bb2e57",
+      "title": "Junior Developer",
+      "companyName": "AliTech Solutions",
+      "salary": "PKR 90,000",
+      "jobType": "Full-Time",
+      "location": "Gujranwala",
+      "companyEmail": "ali@gmail.com",
+      "vacancies": 8
+    },
+    {
+      "id": "6d2c47",
+      "title": "React Developer",
+      "companyName": "AliTech Solutions",
+      "salary": "PKR 100,000",
+      "location": "Lahore",
+      "jobType": "Full-Time",
+      "companyEmail": "ali@gmail.com",
+      "vacancies": 6
+    },
+    {
+      "id": "3480",
+      "title": "Software Engineer",
+      "companyName": "AliTech Solutions",
+      "salary": "PKR 88,675",
+      "jobType": "Full-Time",
+      "location": "Multan",
+      "companyEmail": "ali@gmail.com",
+      "vacancies": 2
+    },
+    {
+      "id": "626a",
+      "title": "Data Scientist",
+      "companyName": "AliTech Solutions",
+      "salary": "PKR 20,000",
+      "jobType": "Part-Time",
+      "location": "Bahawalpur",
+      "companyEmail": "ali@gmail.com",
+      "vacancies": 11
+    },
+    {
+      "id": "971f",
+      "title": "Software Engineer",
+      "companyName": "AliTech Solutions",
+      "salary": "88675",
+      "jobType": "Full-Time",
+      "location": "Bahawalpur",
+      "companyEmail": "ali@gmail.com",
+      "vacancies": "3"
+    },
+    {
+      "id": "b384",
+      "title": "Data Scientist",
+      "companyName": "AliTech Solutions",
+      "salary": "10000",
+      "jobType": "Full-Time",
+      "location": "Bahawalpur",
+      "companyEmail": "ali@gmail.com",
+      "vacancies": "4"
+    },
+    {
+      "id": "7f49",
+      "title": "Data Scientist",
+      "companyName": "AliTech Solutions",
+      "salary": "15000",
+      "jobType": "Internship",
+      "location": "Bahawalpur",
+      "companyEmail": "ali@gmail.com",
+      "vacancies": "8"
+    }
+  ],
+  "applications": [
+    {
+      "id": "1",
+      "cnic": "35201-1234567-1",
+      "fullName": "Ahmed Raza",
+      "fatherName": "Riaz Ahmed",
+      "phone": "03001234567",
+      "email": "ahmed.raza@example.com",
+      "address": "Lahore, Punjab",
+      "education": "BS Computer Science",
+      "experience": 1.5,
+      "jobId": "1",
+      "status": "pending"
+    },
+    {
+      "id": "2",
+      "cnic": "35202-2345678-2",
+      "fullName": "Zainab Ali",
+      "fatherName": "Ali Asghar",
+      "phone": "03012345678",
+      "email": "zainab.ali@example.com",
+      "address": "Karachi, Sindh",
+      "education": "BBA",
+      "experience": 2,
+      "jobId": "2",
+      "status": "approved"
+    },
+    {
+      "id": "3",
+      "cnic": "35203-3456789-3",
+      "fullName": "Usman Tariq",
+      "fatherName": "Tariq Mehmood",
+      "phone": "03101234567",
+      "email": "usman.tariq@example.com",
+      "address": "Faisalabad, Punjab",
+      "education": "MBA",
+      "experience": 3.5,
+      "jobId": "3",
+      "status": "rejected"
+    },
+    {
+      "id": "4",
+      "cnic": "35204-4567890-4",
+      "fullName": "Fatima Noor",
+      "fatherName": "Noor Hassan",
+      "phone": "03211234567",
+      "email": "fatima.noor@example.com",
+      "address": "Islamabad",
+      "education": "BS Software Engineering",
+      "experience": 0.5,
+      "jobId": "1",
+      "status": "pending"
+    },
+    {
+      "id": "5",
+      "cnic": "35205-5678901-5",
+      "fullName": "Bilal Khan",
+      "fatherName": "Khan Muhammad",
+      "phone": "03451234567",
+      "email": "bilal.khan@example.com",
+      "address": "Peshawar, KPK",
+      "education": "DAE Civil",
+      "experience": 4,
+      "jobId": "2",
+      "status": "approved"
+    },
+    {
+      "id": "6",
+      "cnic": "35206-6789012-6",
+      "fullName": "Ayesha Siddiqui",
+      "fatherName": "Siddique Ahmad",
+      "phone": "03331234567",
+      "email": "ayesha.s@example.com",
+      "address": "Hyderabad, Sindh",
+      "education": "BS Accounting",
+      "experience": 2.5,
+      "jobId": "3",
+      "status": "rejected"
+    },
+    {
+      "id": "7",
+      "cnic": "35207-7890123-7",
+      "fullName": "Imran Qureshi",
+      "fatherName": "Qamar Qureshi",
+      "phone": "03111234567",
+      "email": "imran.q@example.com",
+      "address": "Rawalpindi, Punjab",
+      "education": "MS Data Science",
+      "experience": 1,
+      "jobId": "4",
+      "status": "pending"
+    },
+    {
+      "id": "8",
+      "cnic": "35208-8901234-8",
+      "fullName": "Mehwish Saeed",
+      "fatherName": "Saeed Ahmad",
+      "phone": "03091234567",
+      "email": "mehwish.s@example.com",
+      "address": "Multan, Punjab",
+      "education": "BS Chemistry",
+      "experience": 0,
+      "jobId": "5",
+      "status": "approved"
+    },
+    {
+      "id": "9",
+      "cnic": "35209-9012345-9",
+      "fullName": "Noman Bashir",
+      "fatherName": "Bashir Ahmad",
+      "phone": "03221234567",
+      "email": "noman.b@example.com",
+      "address": "Quetta, Balochistan",
+      "education": "B.Com",
+      "experience": 5,
+      "jobId": "6",
+      "status": "rejected"
+    },
+    {
+      "id": "10",
+      "cnic": "35210-0123456-0",
+      "fullName": "Hina Aslam",
+      "fatherName": "Aslam Khan",
+      "phone": "03421234567",
+      "email": "hina.a@example.com",
+      "address": "Gujranwala, Punjab",
+      "education": "BS Statistics",
+      "experience": 1.5,
+      "jobId": "4",
+      "status": "pending"
+    },
+    {
+      "id": "11",
+      "cnic": "35211-2345671-1",
+      "fullName": "Rizwan Iqbal",
+      "fatherName": "Iqbal Hussain",
+      "phone": "03311234567",
+      "email": "rizwan.i@example.com",
+      "address": "Bahawalpur",
+      "education": "BS Physics",
+      "experience": 2,
+      "jobId": "6",
+      "status": "approved"
+    },
+    {
+      "id": "12",
+      "cnic": "35212-3456712-2",
+      "fullName": "Sara Khan",
+      "fatherName": "Zafar Khan",
+      "phone": "03121234567",
+      "email": "sara.k@example.com",
+      "address": "Abbottabad, KPK",
+      "education": "BS Psychology",
+      "experience": 3,
+      "jobId": "5",
+      "status": "rejected"
+    },
+    {
+      "id": "13",
+      "cnic": "35213-4567813-3",
+      "fullName": "Kamran Javed",
+      "fatherName": "Javed Iqbal",
+      "phone": "03071234567",
+      "email": "kamran.j@example.com",
+      "address": "Sialkot",
+      "education": "MCS",
+      "experience": 1,
+      "jobId": "1",
+      "status": "pending"
+    },
+    {
+      "id": "14",
+      "cnic": "35214-5678914-4",
+      "fullName": "Alina Shah",
+      "fatherName": "Shah Nawaz",
+      "phone": "03241234567",
+      "email": "alina.s@example.com",
+      "address": "Okara, Punjab",
+      "education": "BS Sociology",
+      "experience": 0.5,
+      "jobId": "2",
+      "status": "approved"
+    },
+    {
+      "id": "15",
+      "cnic": "35215-6789015-5",
+      "fullName": "Farhan Ahmed",
+      "fatherName": "Ahmed Jan",
+      "phone": "03411234567",
+      "email": "farhan.a@example.com",
+      "address": "Sargodha",
+      "education": "BS Mechanical Engineering",
+      "experience": 2.5,
+      "jobId": "3",
+      "status": "rejected"
+    },
+    {
+      "id": "16",
+      "cnic": "35216-7890126-6",
+      "fullName": "Marium Tariq",
+      "fatherName": "Tariq Mehmood",
+      "phone": "03131234567",
+      "email": "marium.t@example.com",
+      "address": "Sukkur, Sindh",
+      "education": "M.Ed",
+      "experience": 1.5,
+      "jobId": "4",
+      "status": "pending"
+    },
+    {
+      "id": "17",
+      "cnic": "35217-8901237-7",
+      "fullName": "Asad Ullah",
+      "fatherName": "Fateh Ullah",
+      "phone": "03031234567",
+      "email": "asad.u@example.com",
+      "address": "Dera Ismail Khan",
+      "education": "BS IT",
+      "experience": 4.5,
+      "jobId": "5",
+      "status": "approved"
+    },
+    {
+      "id": "18",
+      "cnic": "35218-9012348-8",
+      "fullName": "Laiba Rehman",
+      "fatherName": "Rehman Ali",
+      "phone": "03261234567",
+      "email": "laiba.r@example.com",
+      "address": "Mardan, KPK",
+      "education": "B.Ed",
+      "experience": 2,
+      "jobId": "6",
+      "status": "rejected"
+    },
+    {
+      "id": "19",
+      "cnic": "35219-0123459-9",
+      "fullName": "Tariq Aziz",
+      "fatherName": "Aziz Ullah",
+      "phone": "03321234567",
+      "email": "tariq.a@example.com",
+      "address": "Khairpur",
+      "education": "M.Com",
+      "experience": 3.5,
+      "jobId": "3",
+      "status": "pending"
+    },
+    {
+      "id": "20",
+      "cnic": "35220-1234560-0",
+      "fullName": "Hira Yousaf",
+      "fatherName": "Yousaf Ali",
+      "phone": "03481234567",
+      "email": "hira.y@example.com",
+      "address": "Rahim Yar Khan",
+      "education": "BS English",
+      "experience": 1,
+      "jobId": "4",
+      "status": "approved"
+    },
+    {
+      "id": "0351",
+      "jobId": "1",
+      "fullName": "Ali Hassan Abbasi",
+      "fatherName": "Khursheed Ahmad",
+      "email": "a.h.abbasi0313@gmail.com",
+      "cnic": "31302-6655761-8",
+      "address": "Islamic City Feroza, Rahim Yar Khan, Punjab",
+      "education": "BS Computer Science",
+      "experience": 5,
+      "phone": "03130065959",
+      "status": "pending"
+    },
+    {
+      "id": "21",
+      "jobId": "bb2e57",
+      "fullName": "Ali Hassan Abbasi",
+      "fatherName": "Khursheed Ahmad",
+      "email": "a.h.abbasi0313@gmail.com",
+      "cnic": "31302-6655761-8",
+      "address": "Islamic City Feroza, Rahim Yar Khan, Punjab",
+      "education": "BS Computer Science",
+      "experience": 4,
+      "phone": "03130065959",
+      "status": "approved"
+    },
+    {
+      "id": "bd37",
+      "jobId": "bb2e57",
+      "fullName": "Ahmad Ali Hakim",
+      "fatherName": "Hakim Ali",
+      "email": "ahmad.hakim@example.com",
+      "cnic": "32450-5566789-0",
+      "address": "Liaquatpur",
+      "education": "MS Artificial Intelligence",
+      "experience": 3,
+      "phone": "03476655432",
+      "status": "pending"
+    },
+    {
+      "id": "f0d7",
+      "jobId": "bb2e57",
+      "fullName": "Ali Hassan Khan",
+      "fatherName": "Khursheed Ahmad",
+      "email": "alihassan@gmail.com",
+      "cnic": "31302-6695761-1",
+      "address": "Rahim Yar Khan, Punjab",
+      "education": "MS Artificial Intelligence",
+      "experience": 8,
+      "phone": "03168065959",
+      "status": "pending"
+    },
+    {
+      "id": "b2bf",
+      "jobId": "bb2e57",
+      "fullName": "Ahmad Ali",
+      "fatherName": "Ali Khan",
+      "email": "almaaturidi@gmail.com",
+      "cnic": "31302-9655771-1",
+      "address": "Layyah",
+      "education": "BSCS",
+      "experience": 8,
+      "phone": "03432212345",
+      "status": "pending"
+    },
+    {
+      "id": "f63c",
+      "jobId": "2",
+      "fullName": "Ali Hassan Abbasi",
+      "fatherName": "Khursheed Ahmad",
+      "email": "a.h.abbasi0313@gmail.com",
+      "cnic": "31302-6655761-3",
+      "address": "Islamic City Feroza, Rahim Yar Khan, Punjab",
+      "education": "MS CS",
+      "experience": 8,
+      "phone": "03130065959",
+      "status": "pending"
+    },
+    {
+      "id": "a799",
+      "jobId": "3480",
+      "fullName": "Ali Hassan Abbasi",
+      "fatherName": "Khursheed Ahmad",
+      "email": "a.h.abbasi0313@gmail.com",
+      "cnic": "31302-6655761-8",
+      "address": "Islamic City Feroza, Rahim Yar Khan, Punjab",
+      "education": "BS Computer Science",
+      "experience": 6,
+      "phone": "03130065959",
+      "status": "pending"
+    },
+    {
+      "id": "2d5a",
+      "jobId": "6",
+      "fullName": "Ali Hassan Abbasi",
+      "fatherName": "Khursheed Ahmad",
+      "email": "a.h.abbasi0313@gmail.com",
+      "cnic": "31302-6655761-8",
+      "address": "Islamic City Feroza, Rahim Yar Khan, Punjab",
+      "education": "BS Computer Science",
+      "experience": 8,
+      "phone": "03130065959",
+      "status": "pending"
+    }
+  ]
+}
