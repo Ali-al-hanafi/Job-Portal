@@ -1,0 +1,24 @@
+{
+  "name": "job-portal",
+  "version": "1.0.0",
+  "description": "**Student Name:** Ali Hassan Abbasi\r **Roll Number:** F23BDOCS1M01019  \r **Section:** 1M  \r **Course:** Web Tecnologies  \r **Project Type:** Frontend with JavaScript + Mock API (JSON Server)",
+  "main": "index.js",
+  "scripts": {
+  "start": "json-server --watch db.json --port $PORT"
+  }
+,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ali-al-hanafi/Job-Portal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ali-al-hanafi/Job-Portal/issues"
+  },
+  "homepage": "https://github.com/Ali-al-hanafi/Job-Portal#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+  }
+}
