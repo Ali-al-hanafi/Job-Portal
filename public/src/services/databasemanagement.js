@@ -30,7 +30,7 @@ export async function fetchJobsForEmployer(callback, companyEmail) {
 
 export const fetchApplications = async (callback,jobId) => {
   try {
-    const response = await fetch("http://localhost:5000/applications");
+    const response = await fetch("https://skillsync-f6la.onrender.com/applications");
     if (!response.ok) throw new Error("Failed to fetch applications.");
     let applicationsData = await response.json();
     applicationsData = applicationsData.filter(item => item.jobId === jobId);
@@ -43,7 +43,7 @@ export const fetchApplications = async (callback,jobId) => {
 
 export const validateCredentials = async (email, password, role) => {
   try {
-    const response = await fetch("http://localhost:5000/users");
+    const response = await fetch("https://skillsync-f6la.onrender.com/users");
     const data = await response.json();
    const isValid = data.some(user =>
       user.email === email &&
@@ -60,7 +60,7 @@ export const validateCredentials = async (email, password, role) => {
 
 export  const registerUser = async (email, password, role) => {
   try {
-    const response = await fetch("http://localhost:5000/users", {
+    const response = await fetch("https://skillsync-f6la.onrender.com/users", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
@@ -83,7 +83,7 @@ export  const registerUser = async (email, password, role) => {
 
 export async function addJob(jobData) {
   try {
-    const response = await fetch("http://localhost:5000/jobs", {
+    const response = await fetch("https://skillsync-f6la.onrender.com/jobs", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -104,7 +104,7 @@ export async function addJob(jobData) {
 
 export const applyForJob = async (applicationData) => {
  try{
-const response = await fetch("http://localhost:5000/applications", {
+const response = await fetch("https://skillsync-f6la.onrender.com/applications", {
   method: 'POST',
   headers: {
     'Content-Type': 'application/json'
@@ -125,7 +125,7 @@ const response = await fetch("http://localhost:5000/applications", {
 
 export const isNewApplication = async (jobId, cnic) => {
   try {
-    const response = await fetch(`http://localhost:5000/applications`);
+    const response = await fetch(`https://skillsync-f6la.onrender.com/applications`);
     if (!response.ok) throw new Error("Failed to fetch applications.");
     const applications = await response.json();
 
@@ -140,7 +140,7 @@ export const isNewApplication = async (jobId, cnic) => {
 // Functions Go here
 export async function fetchUsers() {
   try {
-    const response = await fetch("http://localhost:5000/users");
+    const response = await fetch("https://skillsync-f6la.onrender.com/users");
     if (!response.ok) throw new Error("Failed to fetch users.");
     const usersData = await response.json();
     return usersData;
@@ -152,7 +152,7 @@ export async function fetchUsers() {
 
 export const fetchAllData = async (endPoint) => {
   try {
-    const response = await fetch(`http://localhost:5000/${endPoint}`);
+    const response = await fetch(`https://skillsync-f6la.onrender.com/${endPoint}`);
     if (!response.ok) throw new Error("Failed to fetch data");
     let data = await response.json();
     return data;
@@ -164,7 +164,7 @@ export const fetchAllData = async (endPoint) => {
 
 export const submitData = async (data, endPoint, methods = 'POST') => {
   try {
-    const response = await fetch(`http://localhost:5000/${endPoint}`, {
+    const response = await fetch(`https://skillsync-f6la.onrender.com/${endPoint}`, {
       method: methods,
       headers: {
         'Content-Type': 'application/json'
@@ -185,7 +185,7 @@ export const submitData = async (data, endPoint, methods = 'POST') => {
 
    export const deleteData = async (endPoint, id) => {
      try {
-       const response = await fetch(`http://localhost:5000/${endPoint}/${id}`, {
+       const response = await fetch(`https://skillsync-f6la.onrender.com/${endPoint}/${id}`, {
          method: "DELETE",
        });
 
